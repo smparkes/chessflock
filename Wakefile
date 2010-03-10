@@ -1,0 +1,14 @@
+# -*- mode: ruby -*-
+
+# ignore "{vendor,doc,lib/jazrb/{qunit,jasmine}}"
+
+# haml :doctype => :html5
+
+haml
+sass
+jslintrb
+
+jazz "{public,spec}/**/*" # , /\.x?html?$|([Ss]pec)\.js$/,
+     # :framework => :jasmine,
+     # :base => [ "", "http://localhost/" ]
+
