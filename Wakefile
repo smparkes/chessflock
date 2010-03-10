@@ -12,3 +12,4 @@ jazz "{public,spec}/**/*" # , /\.x?html?$|([Ss]pec)\.js$/,
      # :framework => :jasmine,
      # :base => [ "", "http://localhost/" ]
 
+# capybara
