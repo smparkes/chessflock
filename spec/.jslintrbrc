@@ -1,1 +1,1 @@
-{ "predef": [ "describe" ] }
+{ "predef": [ "describe", "it", "expect" ] }
