@@ -3,3 +3,4 @@
 /lib/*.css
 /lib/*/*.css
 /.sass-cache
+/pkg
