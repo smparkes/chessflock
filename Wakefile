@@ -1,15 +1,16 @@
 # -*- mode: ruby -*-
 
-# ignore "{vendor,doc,lib/jazrb/{qunit,jasmine}}"
-
-# haml :doctype => :html5
+ignore "vendor/{jquery,jquery.print,jquery-ui,strophejs,dramatis}/**"
 
 haml
 sass
 jslintrb
 
-jazz "{public,spec}/**/*" # , /\.x?html?$|([Ss]pec)\.js$/,
-     # :framework => :jasmine,
-     # :base => [ "", "http://localhost/" ]
+testflock :options => {
+  :all => [ "envjs:", "xmpp:checkmate@testflock" ],
+  :url => "http://0.0.0.0:8000"
+}
 
-# capybara
+jazz "{public,spec}/**/*", :options => {
+  :driver => [:envjs, :testflock]
+}

@@ -1,0 +1,18 @@
+[submodule "vendor/dramatis"]
+	path = vendor/dramatis
+	url = git://github.com/dramatis/dramatis.git
+[submodule "vendor/strophejs"]
+	path = vendor/strophejs
+	url = git://github.com/smparkes/strophejs.git
+[submodule "vendor/jquery"]
+	path = vendor/jquery
+	url = git://github.com/jquery/jquery.git
+[submodule "vendor/feste"]
+	path = vendor/feste
+	url = git@github.com:smparkes/feste.git
+[submodule "vendor/jquery.print"]
+	path = vendor/jquery.print
+	url = git@github.com:smparkes/jquery.print.git
+[submodule "vendor/jquery-ui"]
+	path = vendor/jquery-ui
+	url = git@github.com:smparkes/jquery-ui.git
