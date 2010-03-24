@@ -1,0 +1,11 @@
+!!!
+%html{html_attrs}
+  %head
+    %title Checkmate
+    %script{:src => "/checkmate.js", :type => "text/javascript"}
+    %script{:src => "/lib/checkmate/#{@page}.js", :type => "text/javascript"}
+    :javascript
+      Checkmate.bosh_uri = '#{bosh_uri}';
+    %link{:href => "/gulltouch.png", :rel => "apple-touch-icon"}
+  %body{:class => @page}
+    = yield      

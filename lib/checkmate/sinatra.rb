@@ -13,18 +13,17 @@ class Checkmate::Sinatra < ::Sinatra::Base
   end
 
   get '/' do
-    @page = "index"
-    haml :index
+    redirect "/play"
   end
 
-  get '/captured' do
-    haml :captured
+  get '/play' do
+    @page = "play"
+    haml :play
   end
 
-  get '/capture/*' do
-    @page = "capture"
-    @jid = params[:splat]
-    haml :capture
+  get '/serve' do
+    @page = "server"
+    haml :serve
   end
 
   def bosh_uri

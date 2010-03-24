@@ -2,15 +2,17 @@
 
 ignore "vendor/{jquery,jquery.print,jquery-ui,strophejs,dramatis}/**"
 
-haml
-sass
-jslintrb
+web = "{public,lib}/**/*"
+
+haml web
+sass web
+jslintrb web
 
 testflock :options => {
   :all => [ "envjs:", "xmpp:checkmate@testflock" ],
   :url => "http://0.0.0.0:8000"
 }
 
-jazz "{public,spec}/**/*", :options => {
+jazz web, :options => {
   :driver => [:envjs, :testflock]
 }

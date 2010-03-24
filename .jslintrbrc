@@ -1,5 +1,5 @@
 { "indent": 2,
-  "predef": [ "jQuery", "Checkmate", "Dramatis", "Feste" ],
+  "predef": [ "jQuery", "Checkmate", "Dramatis", "Feste", "Strophe" ],
   "white": false,
   "onevar": false,
   "nomen": false,
