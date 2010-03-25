@@ -6,6 +6,10 @@
     %script{:src => "/lib/checkmate/#{@page}.js", :type => "text/javascript"}
     :javascript
       Checkmate.bosh_uri = '#{bosh_uri}';
-    %link{:href => "/gulltouch.png", :rel => "apple-touch-icon"}
+    %link{:href => "/logo.png", :rel => "apple-touch-icon"}
+    %meta{:name => "apple-mobile-web-app-capable", :content =>"yes"}
+    %meta{:name => "apple-mobile-web-app-status-bar-style",
+           :content => "black-translucent"}
+
   %body{:class => @page}
     = yield      
