@@ -16,3 +16,6 @@
 [submodule "vendor/jquery-ui"]
 	path = vendor/jquery-ui
 	url = git@github.com:smparkes/jquery-ui.git
+[submodule "vendor/jquery.svg"]
+	path = vendor/jquery.svg
+	url = git@github.com:smparkes/jquery.svg.git
