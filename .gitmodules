@@ -19,3 +19,6 @@
 [submodule "vendor/jquery.svg"]
 	path = vendor/jquery.svg
 	url = git@github.com:smparkes/jquery.svg.git
+[submodule "vendor/jgrowl"]
+	path = vendor/jgrowl
+	url = git://github.com/smparkes/jgrowl.git
