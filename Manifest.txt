@@ -13,7 +13,6 @@ lib/chessflock/board.js
 lib/chessflock/board/view.js
 lib/chessflock/board/view/svg.js
 lib/chessflock/board/view/table.js
-lib/chessflock/chessflock.css
 lib/chessflock/chessflock.js
 lib/chessflock/chessflock.ru
 lib/chessflock/chessflock.sass
@@ -51,7 +50,9 @@ spec/public/play_spec.js
 spec/public/serve_spec.js
 svg/board.svg
 svg/board2.svg
+svg/board4.svg
 svg/boardwp.svg
+svg/drawing3.svg
 svg/knight.svg
 svg/logo.svg
 views/layout.haml
