@@ -6,7 +6,7 @@ require 'thin'
 ru = File.expand_path( File.join( File.dirname( File.expand_path(__FILE__) ),
                                    "..",
                                    "lib",
-                                   "checkmate",
-                                   "checkmate.ru" ) )
+                                   "chessflock",
+                                   "chessflock.ru" ) )
 
 Thin::Runner.new(["-R", ru, "start"]).run!

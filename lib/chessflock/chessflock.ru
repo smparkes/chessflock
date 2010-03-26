@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 
 require 'kibosh'
-require 'checkmate/sinatra'
+require 'chessflock/sinatra'
 # require 'async-rack'
 
 use Rack::CommonLogger
@@ -46,7 +46,7 @@ map "/http-bind" do
   # use Rack::Deflater
 
   run Kibosh.new :hosts => [
-                            # ["checkmate", "a"],
+                            # ["chessflock", "a"],
                             [%r{}, "127.0.0.1"] ]
 end
 
@@ -56,7 +56,7 @@ redirect_to_lib = lambda do |env|
 end
 
 if ENV["RACK_ENV"] == "development"
-  map "/checkmate.js" do
+  map "/chessflock.js" do
     run redirect_to_lib
   end
 end
@@ -65,5 +65,5 @@ map "/" do
   use Rack::Lint
   use Rack::ETag
   # use Rack::Deflater
-  run Checkmate::Sinatra
+  run ChessFlock::Sinatra
 end

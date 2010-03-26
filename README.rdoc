@@ -1,6 +1,6 @@
-= Checkmate
+= ChessFlock
 
-* http://github.com/smparkes/checkmate
+* http://github.com/smparkes/chessflock
 
 == Description
 

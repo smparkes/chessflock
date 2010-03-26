@@ -1,9 +1,9 @@
 require 'sinatra/base'
 require 'haml'
 
-module Checkmate; end
+module ChessFlock; end
 
-class Checkmate::Sinatra < ::Sinatra::Base
+class ChessFlock::Sinatra < ::Sinatra::Base
   set :root, File.expand_path( File.join( File.dirname( File.expand_path(__FILE__) ), "..", ".." ) )
   set :haml, :format => :html5
 
@@ -31,15 +31,15 @@ class Checkmate::Sinatra < ::Sinatra::Base
   end
 
   def user
-    "checkmate"
+    "chessflock"
   end
 
   def password
-    "checkmate"
+    "chessflock"
   end
 
   def hostname
-    "checkmate"
+    "chessflock"
   end
 
   def self.words

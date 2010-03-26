@@ -1,3 +1,3 @@
-class Checkmate
+class ChessFlock
   VERSION = '0.0.0'
 end

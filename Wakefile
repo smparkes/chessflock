@@ -9,7 +9,7 @@ sass web
 jslintrb web
 
 testflock :options => {
-  :all => [ "envjs:", "xmpp:checkmate@testflock" ],
+  :all => [ "envjs:", "xmpp:chessflock@chessflock" ],
   :url => "http://0.0.0.0:8000"
 }
 

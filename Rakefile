@@ -2,12 +2,12 @@
 
 require 'rubygems'
 require 'hoe'
-require './lib/checkmate.rb'
+require './lib/chessflock.rb'
 
 Hoe.plugin :debugging, :doofus, :git
 Hoe.plugins.delete :rubyforge
 
-Hoe.spec 'checkmate' do
+Hoe.spec 'chessflock' do
 
   developer 'Steven Parkes', 'smparkes@smparkes.net'
 
