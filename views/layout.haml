@@ -6,11 +6,20 @@
     %script{:src => "/lib/chessflock/#{@page}.js", :type => "text/javascript"}
     :javascript
       ChessFlock.bosh_uri = '#{bosh_uri}';
-    - if true || apple
+    - if request.user_agent.index("iPad") || request.user_agent.index("iPhone")
       %link{:href => "/logo.png", :rel => "apple-touch-icon"}
       %meta{:name => "apple-mobile-web-app-capable", :content =>"yes"}
       %meta{:name => "apple-mobile-web-app-status-bar-style",
              :content => "black-translucent"}
+      - if request.user_agent.index("iPad")
+        - p "!!!!!!!!!! ipad"
+        %link{:rel => "apple-touch-startup-image",
+              :href => "/ipad.png"}
+      - else
+        - p "****** iphone"
+        %link{:rel => "apple-touch-startup-image",
+              :href => "/iphone.png"}
+
 
   %body{:class => @page}
     = yield      
