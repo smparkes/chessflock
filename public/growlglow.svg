@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg42878" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 5.1" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs42880">
+  <clipPath id="clipPath55778" clipPathUnits="userSpaceOnUse">
+   <rect id="rect55780" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="2.6224" ry="2.5844" height="20" width="44.626" y="10.874" x="11.74" fill="#5d6788"/>
+  </clipPath>
+  <radialGradient id="radialGradient56462" gradientUnits="userSpaceOnUse" cy="8.1289" cx="33.064" gradientTransform="matrix(1,0,0,0.15354332,0,8.836532)" r="36.044">
+   <stop id="stop50398" stop-color="#FFF" stop-opacity="0.26349208" offset="0"/>
+   <stop id="stop50400" stop-color="#FFF" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <metadata id="metadata42883">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <path id="path50394" style="enable-background:accumulate;color:#000000;" d="M69.959,10.439a36.044,5.5343,0,1,1,-1.775,-1.7149" clip-path="url(#clipPath55778)" fill-rule="nonzero" transform="matrix(1.4565571,0,0,1,-17.09961,-10.873734)" fill="url(#radialGradient56462)"/>
+ </g>
+</svg>
