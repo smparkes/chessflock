@@ -1,9 +1,5 @@
 !fontFamily = "Lucida Grande", "Lucida Sans Unicode", "Tahoma", "Verdana", "Helvetica", "Arial", "sans-serif"
 
-div.jGrowl
-  :font-family = !fontFamily
-  :font-weight bold
-
 .logo
   :position absolute
   :top 0
@@ -27,10 +23,36 @@ body
   .board
     :margin-left auto
     :margin-right auto
-    :width 90%
+    :width 500px
     :height 500px
-    .svg
 
-.growl
-  :width 60em
-  :height 30em
+div.jGrowl
+  div.jGrowl-notification
+    :font-family = !fontFamily
+    :font-weight bold
+    :position relative
+    :-moz-border-radius 15px
+    :-webkit-border-radius 15px
+    :background-color rgb(93,103,136)
+    :border-width 1px
+    :border-style solid
+    :border-color white
+
+div.growl
+  :width 100%
+  :heigth 100%
+
+  .glow
+    :position absolute
+    :width 100%
+    :height 1.7em
+    :top 0
+    :right 0
+
+  .icon
+    :float right
+    :height 5em
+    :width 5em
+
+  &.clear
+    :clear both
