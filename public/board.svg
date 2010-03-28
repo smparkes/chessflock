@@ -74,7 +74,7 @@
    <g id="g52607" transform="translate(-2.0814651,0)" class="top translate">
     <g id="g52408" class="top rotate">
      <g id="g38249" transform="translate(0,-2.6171874e-6)" class="board">
-      <rect id="rect6481-5" rx="20" ry="20" height="440" width="440" y="0.0000026172" x="0" fill="#000"/>
+      <rect id="rect6481-5" rx="9.0916" ry="9.0916" height="440" width="440" y="0.0000026172" x="0" fill="#000"/>
       <path id="rect6469" fill="url(#linearGradient38246)" d="m16,16.075,0,407.94,4-4,0-400.25-4-3.6875z"/>
       <path id="rect6469-4" fill="url(#linearGradient38243)" d="M423.94,16,16,16l4,4h400.25l3.6875-4z"/>
       <path id="rect6469-7" fill="url(#linearGradient38240)" d="m16.312,424,407.94,0-4-4-400.25,0-3.6875,4z"/>
