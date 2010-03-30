@@ -12,14 +12,12 @@
       %meta{:name => "apple-mobile-web-app-status-bar-style",
              :content => "black-translucent"}
       %meta{:name => "viewport",
-             :content => "user-scalable=no, width=device-width"}
+             :content => "user-scalable=no, initial-scale=1, minimum-scale=1 maximum-scale=1"}
       - if request.user_agent.index("iPad")
         %link{:rel => "apple-touch-startup-image",
               :href => "/ipad.png"}
       - else
         %link{:rel => "apple-touch-startup-image",
               :href => "/iphone.png"}
-
-
   %body{:class => @page}
     = yield      
