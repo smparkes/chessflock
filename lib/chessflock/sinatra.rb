@@ -21,9 +21,9 @@ class ChessFlock::Sinatra < ::Sinatra::Base
     haml :play
   end
 
-  get '/serve' do
-    @page = "server"
-    haml :serve
+  get '/multi' do
+    @page = "multi"
+    haml :multi
   end
 
   def bosh_uri
