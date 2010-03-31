@@ -25,3 +25,6 @@
 [submodule "vendor/jquery-resize"]
 	path = vendor/jquery-resize
 	url = git://github.com/cowboy/jquery-resize.git
+[submodule "vendor/puck"]
+	path = vendor/puck
+	url = git://github.com/smparkes/puck.git
