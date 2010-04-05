@@ -53,8 +53,8 @@ div.jGrowl
       :text-align center
       :font-family !fontFamily
       :font-weight bold
-      :font-size 0.8em
-      :opacity 0.4
+      :font-size 1em
+      :opacity 1
 
     &.good
       :color rgb(169,204,137)
@@ -108,3 +108,24 @@ div.jGrowl
 
     span, svg
       :vertical-align middle
+
+.status
+
+  span
+    :position relative
+
+    .suffix
+      :width 0
+      :overflow visible
+
+      button
+        :vertical-align middle
+        :-moz-border-radius 15px
+        :-webkit-border-radius 15px
+        :font-family = !fontFamily
+        :border solid #444 1px
+        :font-weight bold
+        :font-size 0.8em
+        :color #D6C36F
+        :background #525B66
+        :margin-bottom .3em
