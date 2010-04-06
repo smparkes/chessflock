@@ -12,6 +12,22 @@ body
   :background-color #888
   :font-family = !fontFamily
 
+.game
+  :position relative
+
+  .id, .opponent
+    :opacity 0
+    :font-size 1.5em
+    :font-weight bold
+    :position absolute
+    :text-align center
+    :width 100%
+    :color #D6C36F
+    &.id
+      :top 0
+    &.opponent
+      :bottom 0
+    
 .board
   :position absolute
 
