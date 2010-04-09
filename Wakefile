@@ -2,7 +2,7 @@
 
 ignore "vendor/{jquery,jquery.print,jquery-ui,strophejs,dramatis}/**"
 
-web = "{public,lib}/**/*"
+web = "{public,lib,spec,vendor/{feste,puck}/{lib,spec}}/**/*"
 
 haml web
 sass web

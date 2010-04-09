@@ -1,1 +1,11 @@
-{ "predef": [ "describe", "it", "expect" ] }
+{ "indent": 2,
+  "predef": [
+   "jQuery", "ChessFlock", "Dramatis", "Feste", "Strophe", "Puck",
+   "it", "describe", "expect", "jazz", "beforeEach"
+   ],
+  "white": false,
+  "onevar": false,
+  "nomen": false,
+  "regexp": false,
+  "plusplus": false,
+  "newside": true }
