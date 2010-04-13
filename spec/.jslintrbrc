@@ -1,7 +1,7 @@
 { "indent": 2,
   "predef": [
    "jQuery", "ChessFlock", "Dramatis", "Feste", "Strophe", "Puck",
-   "it", "describe", "expect", "jazz", "beforeEach"
+   "it", "xit", "describe", "expect", "jazz", "beforeEach", "complete", "incomplete"
    ],
   "white": false,
   "onevar": false,
