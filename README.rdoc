@@ -2,7 +2,7 @@
 
 == Description
 
-An example Dramatis appliction that implements chess in realtime
+An example Dramatis application that implements chess in real-time
 between browsers.
 
 Not yet released.
