@@ -1,10 +1,9 @@
 = ChessFlock
 
-* http://github.com/smparkes/chessflock
-
 == Description
 
-A simple chess game to demonstrate various other projects.
+An example Dramatis appliction that implements chess in realtime
+between browsers.
 
 Not yet released.
 
