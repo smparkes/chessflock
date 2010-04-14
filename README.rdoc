@@ -5,7 +5,7 @@
 An example Dramatis application that implements chess in real-time
 between browsers.
 
-Not yet released.
+A work in progress. Not released in any particularly meaningful way.
 
 == License
 
