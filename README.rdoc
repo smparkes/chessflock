@@ -1,5 +1,7 @@
 = ChessFlock
 
+* http://github.com/smparkes/chessflock
+
 == Description
 
 An example Dramatis application that implements chess in real-time
