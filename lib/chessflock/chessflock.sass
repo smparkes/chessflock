@@ -132,7 +132,7 @@ div.jGrowl
   span
     :position relative
 
-    .suffix
+    &.suffix
       :width 0
       :overflow visible
 
@@ -147,3 +147,33 @@ div.jGrowl
         :color #D6C36F
         :background #525B66
         :margin-bottom .3em
+
+.opponent
+
+  .suffix
+    :width 0
+    :overflow visible
+
+    button
+      :vertical-align middle
+      :-moz-border-radius 15px
+      :-webkit-border-radius 15px
+      :font-family = !fontFamily
+      :border solid #444 1px
+      :font-weight bold
+      :font-size 0.6em
+      :color #D6C36F
+      :background #525B66
+      :margin-bottom .3em
+
+svg, svg g
+  :pointer-events all
+
+.winner
+  :position absolute
+  :top 50%
+  :left 30%
+  :font-weight bold
+  :color yellow
+  :font-size 1.5em
+  :opacity 0.7

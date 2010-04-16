@@ -7,6 +7,16 @@
       describe("SVG",function(){
         var SVG = ChessFlock.Board.View.SVG;
 
+        beforeEach(function(){
+          $(".board svg").remove();
+          $(global.document.body).
+            append("<div class='board'><svg></svg></div>");
+          SVG.svg = $(".board svg");
+          spyOn(SVG.prototype,"populateSquares");
+          spyOn(SVG.prototype,"populatePieces");
+          spyOn(SVG.prototype,"reset");
+        });
+
         it("should be exit",function(){
           expect(SVG).toBeDefined();
         });
