@@ -9,16 +9,16 @@
 	url = git://github.com/jquery/jquery.git
 [submodule "vendor/feste"]
 	path = vendor/feste
-	url = git@github.com:smparkes/feste.git
+	url = git://github.com/smparkes/feste.git
 [submodule "vendor/jquery.print"]
 	path = vendor/jquery.print
-	url = git@github.com:smparkes/jquery.print.git
+	url = git://github.com/smparkes/jquery.print.git
 [submodule "vendor/jquery-ui"]
 	path = vendor/jquery-ui
-	url = git@github.com:smparkes/jquery-ui.git
+	url = git://github.com/smparkes/jquery-ui.git
 [submodule "vendor/jquery.svg"]
 	path = vendor/jquery.svg
-	url = git@github.com:smparkes/jquery.svg.git
+	url = git://github.com/smparkes/jquery.svg.git
 [submodule "vendor/jgrowl"]
 	path = vendor/jgrowl
 	url = git://github.com/smparkes/jgrowl.git
