@@ -2,8 +2,7 @@
 (function(){
   var global = (function(){return this;}());
   if (!global.console) {
-    global.console = {};
-    global.console.debug = global.debug;
+    global.console = {debug: global.debug};
   }
 
   if (!global.backtrace) {
@@ -15,5 +14,10 @@
       }
     };
   }
+
+  if (!global.ChessFlock) {
+    jazz.include((jazz.app_root ? jazz.app_root+"/" : "") +
+                 "lib/chessflock.js");
+  }
+
 }());
-jazz.include("lib/chessflock.js");
