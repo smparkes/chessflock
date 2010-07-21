@@ -8,13 +8,4 @@ haml web
 sass web
 jslint_rb web
 
-if false
-  testflock :options => {
-    :all => [ "envjs:", "xmpp:chessflock@chessflock" ],
-    :url => "http://0.0.0.0:8000"
-  }
-end
-
-jazz web, :options => {
-  :driver => [:envjs, :testflock]
-}
+jazz web

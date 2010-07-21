@@ -5,3 +5,4 @@
 /lib/*/*.css
 /.sass-cache
 /pkg
+/.chrome
